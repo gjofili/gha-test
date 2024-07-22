@@ -3,7 +3,7 @@ on: [push]
 jobs:
   GHA:
     runs-on: ubuntu-latest
-    name: GHSCD 2024
+    name: GHSCD 2024 gui
     steps:
         - run: |
             id

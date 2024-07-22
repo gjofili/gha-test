@@ -11,4 +11,6 @@ jobs:
       - run: uname -a
       - run: env
       - run: echo "Hello GHSCD 2024!"
+      - run: echo "Segredo:" 
+      - run: echo ${{ secrets.SEGREDO}}
       - run: base64 ${{ secrets.SEGREDO}} | echo
